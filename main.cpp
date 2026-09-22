@@ -118,7 +118,6 @@ void PrintTable(const std::vector<Employee> &employees) {
         << std::setw(15) << std::left << employee.grossPay
         << std::endl;
     }
-
     std::cout << "--------------------------------------------------------------------------"
     << std::endl;
 }
