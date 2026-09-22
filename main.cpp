@@ -87,12 +87,12 @@ csvFile.close();
 }
 
 void ParseString(std::string &line, std::string &field) {
-int comma;
+    int comma;
 
-comma = line.find(',');
+    comma = line.find(',');
 
-field = line.substr(0, comma);
-line = line.substr(comma + 1, line.length());
+    field = line.substr(0, comma);
+    line = line.substr(comma + 1, line.length());
 }
 
 void PrintTable(const std::vector<Employee> &employees) {
